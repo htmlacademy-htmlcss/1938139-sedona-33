@@ -58,7 +58,7 @@ body {
 }
 
 .main-background {
-    height: 485px;
+    background-color: #83B3D3;
     background-image: url(/images/index-background.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -238,7 +238,7 @@ body {
     line-height: 23px;
 }
 
-.button-blue {
+.button-add {
     background-color: #83B3D3;
 }
 
@@ -271,7 +271,7 @@ body {
     font-size: 16px;
 }
 
-.button-green {
+.button-added {
     background-color: #7DB54F;
 }
 .pagination-show-more {
