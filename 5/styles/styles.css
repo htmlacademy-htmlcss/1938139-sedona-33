@@ -111,6 +111,10 @@ body {
     color: #ffffff;
 }
 
+.advantages-white .advantages-number {
+  color: #ffffff;
+}
+
 .advantages-white .advantages-description {
     color: #ffffff;
 }
@@ -140,12 +144,8 @@ body {
     color:#333333;
 }
 
-.advantages-citi-item {
+.advantages-citi-item:nth-child(odd) {
     background-color: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-citi-item:nth-child(2) {
-    background-color: #ffffff;
 }
 
 .hotel-search {
