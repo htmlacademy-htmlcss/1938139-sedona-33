@@ -37,7 +37,7 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a href="#" class="button navigation-link-button">Хочу сюда!</a>
+            <a href="#" class="button navigation-link navigation-link-button">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -48,7 +48,7 @@
         <header class="inner-header">
           <h1 class="inner-header-title">Гостиницы Седоны</h1>
           <ul class="breadcrumbs">
-            <li class="breadcrumbs-item">
+            <li class="visually-hidden">
               <a href="index.html" class="breadcrumbs-link">Главная</a>
             </li>
             <li class="breadcrumbs-item">
@@ -107,7 +107,7 @@
                 </ul>
             </fieldset>
             <div class="filter-button">
-              <button class="button button-add" type="submit">Применить</button>
+              <button class="button button-submit" type="submit">Применить</button>
               <button class="button button-reset" type="reset">Сбросить</button>
             </div>
           </form>
@@ -123,15 +123,17 @@
               <option value="popular">Сначала популярное</option>
             </select>
           </form>
-          <a href="#" class="button button-light">
-            <span class="visually-hidden">Показать карточки</span>
-          </a>
-          <a href="#" class="button">
-            <span class="visually-hidden">Показать слайдшоу</span>
-          </a>
-          <a href="#" class="button">
-            <span class="visually-hidden">Показать список</span>
-          </a>
+          <div class="catalog-card-button">
+            <a href="#" class="button button-light">
+              <span class="visually-hidden">Показать карточки</span>
+            </a>
+            <a href="#" class="button">
+              <span class="visually-hidden">Показать слайдшоу</span>
+            </a>
+            <a href="#" class="button">
+              <span class="visually-hidden">Показать список</span>
+            </a>
+          </div>
         </div>
 
         <ul class="hotel-list">
@@ -184,19 +186,19 @@
               <a class="pagination-link pagination-current">1</a>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link pagination-current">2</a>
+              <a class="pagination-link">2</a>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link pagination-current">3</a>
+              <a class="pagination-link">3</a>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link pagination-current">4</a>
+              <a class="pagination-link">4</a>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link pagination-current">...</a>
+              <a class="pagination-link">...</a>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link pagination-current">10</a>
+              <a class="pagination-link">10</a>
             </li>
           </ul>
         </div>
