@@ -659,6 +659,20 @@ body {
   border-radius: 4px;
 }
 
+.button-submit:hover {
+  background-color:#68a2ca;
+}
+
+.button-submit:focus {
+  box-shadow: inset 0 0 0 4px #756257;
+  outline: none;
+}
+
+.button-submit:active {
+  box-shadow: none;
+  opacity: 0.3;
+}
+
 .button-reset {
   font-size: 18px;
   line-height: 23px;
@@ -667,6 +681,20 @@ body {
   padding: 14px 29px;
   background-color: transparent;
   border: none;
+}
+
+.button-reset:hover {
+  color:#68a2ca;
+}
+
+.button-reset:focus {
+  box-shadow: inset 0 0 0 4px #68a2ca;
+  outline: none;
+}
+
+.button-reset:active {
+  box-shadow: none;
+  opacity: 0.3;
 }
 
 .catalog-card {
@@ -711,6 +739,15 @@ body {
   border: 2px solid #E6E6E6;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+.card-grid-toggle:hover {
+  background-color:#68a2ca;
+}
+
+.card-grid-toggle:focus {
+  box-shadow: inset 0 0 0 4px #68a2ca;
+  outline: none;
 }
 
 .catalog-card-icon {
@@ -779,10 +816,38 @@ body {
   border-radius: 4px;
 }
 
+.hotel-card-button:hover {
+  background-color: #615048;
+}
+
+.hotel-card-button:focus {
+  box-shadow: inset 0 0 0 4px #68a2ca;
+  outline: none;
+}
+
+.hotel-card-button:active {
+  box-shadow: none;
+  opacity: 0.3;
+}
+
 .button-add {
   width: 140px;
   margin: 0;
   background-color:#83B3D3;
+}
+
+.button-add:hover {
+  background-color: #68a2ca;
+}
+
+.button-add:focus {
+  box-shadow: inset 0 0 0 4px #756257;
+  outline: none;
+}
+
+.button-add:active {
+  box-shadow: none;
+  opacity: 0.3;
 }
 
 .button-added{
