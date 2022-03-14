@@ -123,7 +123,7 @@
       <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
       <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form action="https://echo.htmlacademy.ru/" class="newsletter-form" method="post">
-        <input type="email" class="field" placeholder="Ваш e-mail" name="newsletter-email" id="newsletter-email" required>
+        <input type="email" class="newsletter-field" placeholder="Ваш e-mail" name="newsletter-email" id="newsletter-email" required>
         <button class="button newsletter-button" type="submit">Подписаться</button>
       </form>
     </section>
@@ -165,5 +165,67 @@
           </svg>
         </a>
   </footer>
+
+  <div class="modal-container modal-container-close">
+    <div class="modal modal-search-hotels">
+      <button class="modal-close-button">
+        <span class="visually-hidden"></span>
+      </button>
+      <section class="modal-content">
+        <h2 class="modal-title">Поиск гостиниц в Седоне</h2>
+        <form action="https://echo.htmlacademy.ru/" class="search-hotels-form" method="post">
+          <p class="field-group">
+            <label for="arrival-date" class="field-group-date">Дата заезда:</label>
+            <input type="text" class="arrival-date-form-field field" id="arrival-date" name="arrival-date" value="27 апреля 2020" >
+            <span class="status-error">Мы не можем отправить вас в прошлое.</span>
+          </p>
+          <p class="field-group">
+            <label for="departure-date" class="field-group-date">Дата выезда:</label>
+            <input type="text" class="departure-date-form-field field" id="departure-date" name="departure-date" value="1 сентября 2021">
+            <span class="status-free">На эти даты есть свободные номера. Пока есть.</span>
+          </p>
+          <div class="field-group-number">
+            <p class="field-group group-adults">
+              <label for="place-for-adults" class="field-group-date field-group-date-adults">Взрослые:</label>
+              <span class="input-button">
+                <button class="remove-adults" type="button"></button>
+                <input type="text" class="number-form-field field number-adults" id="place-for-adults" name="place-for-adults">
+                <button class="add-adults" type="button"></button>
+              </span>
+            </p>
+            <p class="field-group group-children">
+              <span class="place-for-children">
+                <label for="place-for-children" class="field-group-date">Дети:</label>
+                <span class="tooltip">
+                  <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
+                    <svg class="tooltip-icon" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="12.5" cy="12.5" r="12.5"/>
+                      <g clip-path="url(#a)" fill="#fff">
+                        <path d="M12 17h1v-6h-1v6ZM13 8h-1v1h1V8Z"/>
+                      </g>
+                      <defs>
+                        <clipPath id="a">
+                          <path fill="#fff" transform="translate(12 8)" d="M0 0h1v9H0z"/>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </button>
+                  <span class="tooltip-text" role="tooltip" id="tooltip-label">
+                    Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.
+                  </span>
+                </span>
+              </span>
+              <span class="input-button">
+                <button class="remove-child" type="button"></button>
+                <input type="text" class="number-form-field field number-children" id="place-for-children" name="place-for-children">
+                <button class="add-child" type="button"></button>
+              </span>
+            </p>
+          </div>
+          <button class="search-hotels-form-button button">Найти</button>
+        </form>
+      </section>
+    </div>
+  </div>
 </body>
 </html>
