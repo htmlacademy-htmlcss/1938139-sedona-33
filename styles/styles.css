@@ -607,25 +607,35 @@ body {
 
 .field-group {
   position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .status-error {
   display: block;
-  margin-left: 225px;
   font-size: 16px;
   line-height: 40px;
   color: #ff5757;
 }
 
+.arrival-wrapper {
+  margin-right: 70px;
+}
+
+.departure-wrapper {
+  margin-right: 70px;
+}
+
 .status-free {
   display: block;
-  margin-left: 225px;
   font-size: 16px;
   line-height: 40px;
   color: #333333;
 }
 
 .field-group-date {
+  display: block;
+  margin-top: 10px;
   margin-left: 70px;
   font-size: 18px;
   line-height: 40px;
@@ -644,7 +654,6 @@ body {
 }
 
 .arrival-date-form-field {
-  margin-left: 50px;
   padding-left: 19px;
   padding-right: 50px;
   background-image:url(../images/calendar.svg);
@@ -671,6 +680,7 @@ body {
 
 .input-button {
   display: flex;
+  height: 60px;
 }
 
 .number-form-field:focus {
@@ -687,7 +697,7 @@ body {
 
 .field-group-date-adults {
   display: block;
-  margin: auto 0;
+  width: 83px;
 }
 
 .field-group-number .field-group-date {
@@ -741,17 +751,16 @@ body {
 /* Дети */
 
 .group-children {
-  max-width: 265px;
-  height: 60px;
+  width: 230px;
   display: flex;
   flex-wrap: wrap;
 }
 
+
 .place-for-children {
   position: relative;
-  height: 40px;
-  margin: auto 0;
-  margin-right: 46px;
+  width: 75px;
+  margin-right: 22px;
 }
 
 .number-children {
@@ -810,8 +819,8 @@ body {
 
 .tooltip {
   position: absolute;
-  top: 8px;
-  margin-left: 7px;
+  top: 18px;
+  margin-left: 60px;
   width: 25px;
   height: 25px;
 }
